@@ -2,6 +2,11 @@ html {
   -webkit-font-smoothing: antialiased;
   font-family: "Muli", sans-serif;
 }
+body {
+  width: 100%;
+  height: auto;
+  background-image: url("img/_DSC1432.jpg");
+}
 
 .header {
   padding-top: 0.6em;
@@ -23,8 +28,8 @@ html {
 }
 
 .containermod {
-  width: 1024px;
-  background-color: black;
+  width: 1920px;
+  /*background-color: black;*/
 }
 
 .hero {
@@ -60,4 +65,13 @@ html {
   width: 380px;
   background-image: -webkit-linear-gradient( left , rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1));
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1));
+}
+.quote {
+  all:none;
+  padding: 13em;
+  margin: 0,0,0,0;
+  /*background-color: black;*/
+  color: white;
+  text-align: center;
+
 }
