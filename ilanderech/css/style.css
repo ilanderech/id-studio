@@ -1,0 +1,185 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Muli", sans-serif;
+}
+body {
+
+  background: url(../img/_DSC1432.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  background-color: black;
+}
+
+.header {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+    transition: all 0.2s ease-in-out;
+
+
+  background-image: -webkit-linear-gradient( left , rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+}
+.active {
+  background: #fff;
+
+}
+.linkHA {
+ color: black !important;
+
+}
+.header::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.header .menuitem {
+  color: rgba(255, 255, 255, 0.8);
+}
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+} 
+.linkH{
+  text-decoration: none;
+  color: white;
+  font-size:16px;
+}
+.linkH:hover{
+  text-decoration: none;
+  color: white;
+  font-size:16px;
+  }
+.header li{
+  padding: 20px
+}
+.hero {
+  padding: 7em 0;
+}
+.hero h1, .hero h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+    letter-spacing: 12px; 
+}
+.hero h1 {
+  color: #ff0049;
+  padding-bottom: 1em;
+}
+.hero h1 span.letter {
+  padding: 0 0.19em;
+}
+.hero h2 {
+  color: white;
+  margin-bottom: 2.1em;
+}
+.hero h2 span.complete {
+  padding: 0.7em;
+  border: 3px white solid;
+}
+.hero h2 span.letter {
+  padding: 0 9px;
+}
+.hero .divider {
+  margin: 0 auto;
+  height: 1px;
+  width: 380px;
+  background-image: -webkit-linear-gradient( left , rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.1));
+}
+.quote {
+  all:none;
+  padding: 30em;
+  margin: 0,0,0,0;
+  /*background-color: black;*/
+  color: white;
+  text-align: center;
+
+}
+#gallery{
+
+  background: url(../img/_DSC1505.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  background-color: black;
+}
+.galleryp{
+  margin-top: 92px;
+}
+.galleryp2{
+  margin-top: 30px;
+}
+#one{
+
+  background: url(../img/_DSC1472-Edit.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  background-color: black;
+}
+
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;   
+}
+
+#lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 25, 25);
+    padding: 5px 8px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -55px;
+    
+    z-index:1032;
+}
+.carousel{
+  padding-top: 10em;
+}
+#two{
+
+  background: url(../img/_DSC1472-Edit.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  background-color: black;
+}
+#three{
+
+  background: url(../img/_DSC1472-Edit.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  background-color: black;
+}
+#four{
+
+  background: url(../img/_DSC1472-Edit.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  background-color: black;
+}

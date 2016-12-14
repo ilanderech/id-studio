@@ -31,6 +31,7 @@ body {
 }
 .linkHA {
  color: black !important;
+ font-variant: small-caps;
 
 }
 .header::after {
@@ -51,18 +52,22 @@ body {
 .linkH{
   text-decoration: none;
   color: white;
-  font-size:16px;
+  font-size:20px;
+  font-variant: small-caps;
+  text-align: center;
 }
 .linkH:hover{
   text-decoration: none;
   color: white;
-  font-size:16px;
+  font-size:20px;
+  font-variant: small-caps;
+  font-weight: bolder;
   }
 .header li{
   padding: 20px
 }
 .hero {
-  padding: 7em 0;
+  padding: 15em 0;
 }
 .hero h1, .hero h2 {
   text-align: center;
@@ -107,7 +112,7 @@ body {
 }
 #gallery{
 
-  background: url(../img/_DSC1505.jpg) no-repeat center center fixed; 
+  background: url(../img/_DSC1472-Edit.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -182,4 +187,24 @@ body {
   background-size: cover;
   margin: 0;
   background-color: black;
+}
+#about{
+
+  background: url(../img/_DSC1472-Edit.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  background-color: black;
+}
+.aboutme{
+  padding-top: 5em;
+  font-variant: small-caps; 
+  color: white;
+  font-size: 2em;
+
+}
+.me{
+  padding-top: 10em;
 }
